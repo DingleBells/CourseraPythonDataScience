@@ -9,4 +9,3 @@ def fibList(n):
     for i in range(2, n+1):
         numlist.append(numlist[i-1] + numlist[i-2])
     return numlist[-1]
-
